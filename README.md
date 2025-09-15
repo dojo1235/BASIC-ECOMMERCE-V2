@@ -1,4 +1,4 @@
-# JUMIA E-Commerce Backend
+# E-Commerce Backend
 
 Production-ready, fullstack e-commerce backend inspired by Jumia.
 
@@ -6,7 +6,7 @@ Production-ready, fullstack e-commerce backend inspired by Jumia.
 
 - Node.js, Express
 - MySQL (mysql2)
-- JWT, bcryptjs, dotenv, cors
+- JWT, bcryptjs, dotenv
 - Zod validation
 - Vitest (unit and integration tests)
 - Supertest
