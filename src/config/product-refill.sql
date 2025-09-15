@@ -1,0 +1,21 @@
+-- Refill stock for all when stock run out
+UPDATE products SET stock = 50  WHERE name = 'Wireless Mouse';
+UPDATE products SET stock = 30  WHERE name = 'Bluetooth Speaker';
+UPDATE products SET stock = 100 WHERE name = 'USB-C Charger';
+UPDATE products SET stock = 25  WHERE name = 'Noise Cancelling Headphones';
+UPDATE products SET stock = 60  WHERE name = 'Smart Fitness Band';
+UPDATE products SET stock = 40  WHERE name = 'Desk Lamp';
+UPDATE products SET stock = 35  WHERE name = 'Laptop Stand';
+UPDATE products SET stock = 75  WHERE name = '32GB Flash Drive';
+UPDATE products SET stock = 40  WHERE name = 'Wireless Keyboard';
+UPDATE products SET stock = 20  WHERE name = 'Smartphone Tripod';
+UPDATE products SET stock = 100 WHERE name = 'Coffee Mug';
+UPDATE products SET stock = 200 WHERE name = 'Notebook';
+UPDATE products SET stock = 25  WHERE name = 'Power Bank 10000mAh';
+UPDATE products SET stock = 90  WHERE name = 'Portable Fan';
+UPDATE products SET stock = 35  WHERE name = 'Wireless Earbuds';
+UPDATE products SET stock = 60  WHERE name = 'HDMI Cable';
+UPDATE products SET stock = 50  WHERE name = 'Smart LED Bulb';
+UPDATE products SET stock = 80  WHERE name = 'Phone Holder';
+UPDATE products SET stock = 15  WHERE name = 'Backpack';
+UPDATE products SET stock = 50  WHERE name = 'USB Desk Fan';

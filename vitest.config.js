@@ -4,10 +4,16 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'node',
-    include: ['tests/{unit,integration}/**/*.test.js'], // Includes both unit and integration tests
+    include: ['tests/{unit,integration}/**/*.test.js'], // unit + integration tests
     coverage: {
       reporter: ['text', 'json', 'html'],
-      exclude: ['**/node_modules/**'],
+      include: ['src/**'], // focus coverage only on backend source files
+      exclude: [
+        '**/node_modules/**',
+        'server.js',
+        'vitest.config.js',
+        'public/**', // frontend files not tested yet
+      ],
     },
   },
 });
